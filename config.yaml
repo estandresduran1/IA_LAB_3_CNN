@@ -1,0 +1,13 @@
+inference:
+  # Confianza minima para considerar la prediccion valida
+  confidence_threshold: 0.70
+
+filter:
+  # Tamano de la ventana temporal
+  window_size: 8
+  
+  # Fotogramas consistentes requeridos para aceptar comando
+  consistency_threshold: 5
+  
+  # Tiempo de espera (en segundos) tras aceptar un comando
+  cooldown_seconds: 1.2
